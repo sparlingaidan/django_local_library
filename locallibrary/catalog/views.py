@@ -36,3 +36,4 @@ def index(request):
 class BookDetailView(generic.DetailView):
     model = Book
 
+    return render(request, 'index.html', context=context)
